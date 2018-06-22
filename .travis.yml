@@ -36,6 +36,7 @@ install:
   - wget -O azcopy.tar.gz https://aka.ms/downloadazcopyprlinux
   - tar -xf azcopy.tar.gz
   - sudo ./install.sh
+  - sudo apt-get install apt-transport-https azure-cli
 
 # Build the website
 script:
