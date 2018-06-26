@@ -1,5 +1,6 @@
 dist: wheezy
-sudo: off
+sudo: required
+dist: trusty
 addons:
   apt:
     packages:
