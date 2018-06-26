@@ -17,7 +17,7 @@ branches:
 
 env:
   global:
-    - SOURCE_DIR="quickstart"
+    - SOURCE_DIR="archetypes"
     - DESTINATION_PATH="https://devicesimulatorstorage.blob.core.windows.net/mytestsite"
     - CDN_RESOURCE_GROUP="saroup"
     - CDN_ENDPOINT_NAME="devicesimulatorcdnendpoint"
