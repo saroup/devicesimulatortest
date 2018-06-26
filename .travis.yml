@@ -36,7 +36,7 @@ install:
   - sudo cp ./azure.list /etc/apt/sources.list.d/
   - sudo apt-key adv --keyserver packages.microsoft.com --recv-keys B02C46DF417A0893
   - sudo apt-get update
-  - sudo apt-get install azcopy
+  - sudo apt-get install azcopy=6.3.0
   - sudo apt-get install apt-transport-https azure-cli
 
 # Build the website
